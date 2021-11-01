@@ -1,13 +1,20 @@
 package Modelo;
 
-public abstract class  funcionario {
+ abstract class  funcionario {
     private String cpf;
     private String nome;
     private int idade;
-    private float salario;
+    protected double salario;
     private String telefone;
 
-    public String getCpf() {
+     public funcionario(String cpf, String nome, int idade, String telefone) {
+         this.cpf = cpf;
+         this.nome = nome;
+         this.idade = idade;
+         this.telefone = telefone;
+     }
+
+     public String getCpf() {
         return this.cpf;
     }
 
@@ -39,11 +46,10 @@ public abstract class  funcionario {
         this.telefone = telefone;
     }
 
-    public float getSalario() {
+    public double getSalario() {
         return this.salario;
     }
 
-    public abstract void setSalario();
 
-
-}
+     public abstract void setSalario(double salario);
+ }
