@@ -1,3 +1,46 @@
-Olá, abaixo algumas coisas que precisam ser feitas:
+abaixo algumas coisas que precisam ser feitas:
+
+1) Herança com, no mínimo, as seguintes classes: Classe_Principal, Sub_Classe_1,
+  Sub_Classe_2, Sub_Sub_Classe_2. Cada classe deve possuir, no mínimo, dois atributos,
+  além dos respectivos métodos setX() / getX();
 
 
+  Classe_Principal-  FUNCIONARIO - ABSTRATA - METODO abstrato: setSalario()
+
+    Sub_Classe_1,    Gerente - pode mudar preço dos produtos
+
+        Sub_Sub_Classe_2.  Aux-Gerente - nao pode mudar o preco, mas pode cadastrar novos produtos
+
+    Sub_Classe_2,   Vendedor - pode somente diminuir a quantidade de produtos
+
+  2) Aplicar os conceitos/técnicas referentes a utilização de construtor. O programa deve conter,
+  no mínimo, 1 construtor, com argumento(s);
+  ta
+
+  3) Utilizar as palavras reservadas super/this;
+  blz
+
+  4) Aplicar os conceitos referente a sobreposição; O programa deve conter, no mínimo, dois
+  métodos sobrepostos;
+
+  nao esquecer de conferir depois
+
+  5) Aplicar as técnicas referentes a sobrecarga; O programa deve conter, no mínimo, dois
+  métodos sobrecarregados;
+
+  tranquilo
+
+  6) Aplicar as técnicas referentes classes e métodos abstratos: o programa deve conter  uma classe abstrata e um método abstrato;
+
+  R: Classe abstrata é uma classe que nao pode ser instanciada, e um metodo abstrato sao aqueles que possuem so o nome do metodo,
+     sem ter realmente uma implementação dele, isso deve ser feito pelos seus herdeiros
+
+  7) Aplicar as técnicas referentes ao "polimorfismo" COM interface. Implementar, no mínimo,
+  duas interfaces; Estas interfaces podem implementar a Classe_Principal, ou qualquer
+  outra Sub_Classe_X;
+   VERIFICAR DEPOIS
+
+  8) Aplicar os modificadores de acesso/visibilidade (i.e., de acordo com a respectiva
+  aplicabilidade), em métodos, atributos e classes: public, private, protected, default;
+
+  tranquilo tbm
