@@ -21,19 +21,21 @@ abaixo algumas coisas que precisam ser feitas:
 
 
   4) Aplicar os conceitos referente a sobreposição; O programa deve conter, no mínimo, dois
-  métodos sobrepostos; OK
+  métodos sobrepostos;  GERENTE.getNome(), e GerenteAux.setSalario(); OK
 
-  nao esquecer de conferir depois
+
 
   5) Aplicar as técnicas referentes a sobrecarga; O programa deve conter, no mínimo, dois
-  métodos sobrecarregados;
+  métodos sobrecarregados; funcionario.getsalario(cotacaoDolar) e Gerente.getNome(tratamento); OK
 
   tranquilo
 
   6) Aplicar as técnicas referentes classes e métodos abstratos: o programa deve conter  uma classe abstrata e um método abstrato;
 
   R: Classe abstrata é uma classe que nao pode ser instanciada, e um metodo abstrato sao aqueles que possuem so o nome do metodo,
-     sem ter realmente uma implementação dele, isso deve ser feito pelos seus herdeiros
+     sem ter realmente uma implementação dele, isso deve ser feito pelos seus herdeiros.
+     CLASE ABSTRATA: FUNCIONARIO, com metodo abstrato set salario; OK
+
 
   7) Aplicar as técnicas referentes ao "polimorfismo" COM interface. Implementar, no mínimo,
   duas interfaces; Estas interfaces podem implementar a Classe_Principal, ou qualquer
@@ -42,5 +44,4 @@ abaixo algumas coisas que precisam ser feitas:
 
   8) Aplicar os modificadores de acesso/visibilidade (i.e., de acordo com a respectiva
   aplicabilidade), em métodos, atributos e classes: public, private, protected, default;
-
-  tranquilo tbm
+    OK

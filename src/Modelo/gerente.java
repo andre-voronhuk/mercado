@@ -43,8 +43,8 @@ public class gerente extends funcionario {
     return novo;
   }
 
-  public String getNome() {
-    return "Sr " + super.getNome();
+  public String getNome(String tratamento) {
+    return tratamento + " " + super.getNome();
   }
   ;
 

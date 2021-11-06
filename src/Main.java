@@ -15,9 +15,10 @@ public class Main {
     lucas.setSalario(5000);
     joao.setSalario(5000);
 
-    System.out.println("\n\nSALARIOS:\n\n vendedor:" + lucas.getSalario());
-    System.out.println(" gerente:" + mario.getSalario());
-    System.out.println(" aux gerente:" + joao.getSalario());
+    System.out.println("\n\nSALARIOS:\n\n vendedor" + lucas.getNome() + ":" + lucas.getSalario());
+    System.out.println(" gerente:" + mario.getNome("Sr") + ":" + mario.getSalario());
+    System.out.println(" aux gerente:" + joao.getNome() + ":" + joao.getSalario());
+    System.out.println("\nSalario do vendedor em dolar (5R$): $" + lucas.getSalario(5));
 
     System.out.println("\nCadastrando produtos: ");
     produto item = mario.CadastrarProduto(1, "Adidas Essentials Big Logo", "camiseta", 50, 9);

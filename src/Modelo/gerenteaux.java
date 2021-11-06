@@ -12,6 +12,7 @@ public class gerenteaux extends gerente {
     return novo;
   }
 
+  @Override
   public void setSalario(double salario) {
     super.salario = salario + (salario * 0.15);
     // o aux de gerente tem um adicional de 15% em seu salario

@@ -5,25 +5,25 @@ abaixo algumas coisas que precisam ser feitas:
   além dos respectivos métodos setX() / getX();
 
 
-  Classe_Principal-  FUNCIONARIO - ABSTRATA - METODO abstrato: setSalario()
+  Classe_Principal-  FUNCIONARIO - ABSTRATA - METODO abstrato: setSalario() OK
 
-    Sub_Classe_1,    Gerente - pode mudar preço dos produtos
+    Sub_Classe_1,    Gerente - pode mudar preço dos produtos OK
 
-        Sub_Sub_Classe_2.  Aux-Gerente - nao pode alterar produtos, mas pode cadastrar novos produtos
+        Sub_Sub_Classe_2.  Aux-Gerente - nao pode alterar produtos, mas pode cadastrar novos produtos OK
 
-    Sub_Classe_2,   Vendedor - pode somente diminuir a quantidade de produtos
+    Sub_Classe_2,   Vendedor - pode somente diminuir a quantidade de produtos OK
 
   2) Aplicar os conceitos/técnicas referentes a utilização de construtor. O programa deve conter,
-  no mínimo, 1 construtor, com argumento(s);
-  ta
+  no mínimo, 1 construtor, com argumento(s); OK
 
-  3) Utilizar as palavras reservadas super/this;
-  blz
+
+  3) Utilizar as palavras reservadas super/this; OK
+
 
   4) Aplicar os conceitos referente a sobreposição; O programa deve conter, no mínimo, dois
-  métodos sobrepostos;
+  métodos sobrepostos;  GERENTE.getNome(), e GerenteAux.setSalario(); OK
 
-  nao esquecer de conferir depois
+
 
   5) Aplicar as técnicas referentes a sobrecarga; O programa deve conter, no mínimo, dois
   métodos sobrecarregados;
