@@ -10,14 +10,15 @@ public class Main {
     vendedor lucas = new vendedor("115.345.213-22", "Lucas da silva", 20, "4299932-2231");
     gerente mario = new gerente("234.213.653-82", "Mario das Pedras", 26, "4299832-9921");
     gerenteaux joao = new gerenteaux("112.325.122-09", "Joao Gabriel Pontes", 22, "4299122-1123");
+
     // ambos tem o salario base em 5mil, porem o gerente tem uma porcentagem a mais que o vendedor
     mario.setSalario(5000);
     lucas.setSalario(5000);
     joao.setSalario(5000);
 
-    System.out.println("\n\nSALARIOS:\n\n vendedor" + lucas.getNome() + ":" + lucas.getSalario());
-    System.out.println(" gerente:" + mario.getNome("Sr") + ":" + mario.getSalario());
-    System.out.println(" aux gerente:" + joao.getNome() + ":" + joao.getSalario());
+    System.out.println("\n\nSALARIOS:\n\n vendedor " + lucas.getNome() + ":" + lucas.getSalario());
+    System.out.println(" gerente: " + mario.getNome("Sr") + ":" + mario.getSalario());
+    System.out.println(" aux gerente: " + joao.getNome() + ":" + joao.getSalario());
     System.out.println("\nSalario do vendedor em dolar (5R$): $" + lucas.getSalario(5));
 
     System.out.println("\nCadastrando produtos: ");

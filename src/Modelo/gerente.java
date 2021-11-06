@@ -46,7 +46,6 @@ public class gerente extends funcionario implements interfaceGerente {
   public String getNome(String tratamento) {
     return tratamento + " " + super.getNome();
   }
-  ;
 
   @Override
   public void setSalario(double salario) {
