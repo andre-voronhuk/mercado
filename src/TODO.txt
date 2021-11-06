@@ -39,8 +39,8 @@ abaixo algumas coisas que precisam ser feitas:
 
   7) Aplicar as técnicas referentes ao "polimorfismo" COM interface. Implementar, no mínimo,
   duas interfaces; Estas interfaces podem implementar a Classe_Principal, ou qualquer
-  outra Sub_Classe_X;
-   VERIFICAR DEPOIS
+  outra Sub_Classe_X; OK criado duas interfaces
+
 
   8) Aplicar os modificadores de acesso/visibilidade (i.e., de acordo com a respectiva
   aplicabilidade), em métodos, atributos e classes: public, private, protected, default;

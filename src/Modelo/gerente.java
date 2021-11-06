@@ -1,6 +1,6 @@
 package Modelo;
 
-public class gerente extends funcionario {
+public class gerente extends funcionario implements interfaceGerente {
 
   public gerente(String cpf, String nome, int idade, String telefone) {
     super(cpf, nome, idade, telefone);

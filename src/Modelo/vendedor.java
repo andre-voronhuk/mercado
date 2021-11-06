@@ -1,17 +1,16 @@
 package Modelo;
 
-public class vendedor extends funcionario {
+public class vendedor extends funcionario implements interfaceVendedor {
 
   public vendedor(String cpf, String nome, int idade, String telefone) {
     super(cpf, nome, idade, telefone);
   }
 
-  private void Venderproduto() {}
-
   public void setSalario(double salario) {
     super.salario = salario;
   }
 
+  @Override
   public void VenderProduto(produto item, int qtd) {
     System.out.println(
         "*VenderProduto*\nSeria feito a alteração na quantidade do produto informado ");
